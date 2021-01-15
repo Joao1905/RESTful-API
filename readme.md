@@ -22,8 +22,8 @@
 ## Tecnologias, arquiteturas e implementação
 - Cumpre com os padrões **REST**
 - *Framework* utiliza **node.js** (com **express** para requisições e respostas, e **joi** para validação de input) e **NoSQL** (database)
-- Serviços da AWS utilizados foram **Lambda**, **API Gateway** e **DynamoDB** Foi utilizado
-- **Terraform** para automatizar estruturação da AWS
+- Serviços da AWS utilizados foram **Lambda**, **API Gateway** e **DynamoDB**
+- Foi utilizado **Terraform** para automatizar estruturação da AWS
 - Versionamento em **git** (github)
 - Arquitetura de **DAO** simplificada (sem façade)
 - Erros e parâmetros mal formados são resolvidos com devido *status code*
