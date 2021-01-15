@@ -25,15 +25,15 @@
 - Serviços da AWS utilizados foram **Lambda**, **API Gateway** e **DynamoDB**
 - Foi utilizado **Terraform** para automatizar estruturação da AWS
 - Versionamento em **git** (github)
-- Arquitetura de **DAO** simplificada (sem façade)
+- Arquitetura de **DAO** simplificada (sem *façade*)
 - Erros e parâmetros mal formados são resolvidos com devido *status code*
 - GET *requests* podem ser feitos diretamente pelo *browser*. Demais *requests* podem ser feitos pelo *postman* (ou qualquer outra ferramenta de requisições HTTP) passando os atributos descritos na sessão anterior em forma de JSON
 
 ## Exemplos da Utilização
-**GET**
+**GET**\
 ![enter image description here](https://i.imgur.com/KcEFMXR.png)
 
-**GET**
+**GET**\
 ![enter image description here](https://i.imgur.com/qx2cKvm.png)
 
 **POST**
