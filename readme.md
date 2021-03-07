@@ -7,7 +7,6 @@
 -   É necessário que todas as mudanças sejam realizadas via Terraform
 
 ## API
--Acesso pelo url https://8isovz24u7.execute-api.us-east-1.amazonaws.com/api/employees
 |Método|Endpoint|Função|Parâmetros|Retorno|
 |------|--------|--------|--------|--------|
 |GET|/api/employees|Selecionar Funcionários|N.A.|Array com todos os funcionários (JSON)|
